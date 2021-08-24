@@ -1,0 +1,32 @@
+{
+  "name": "Tab Duplicate",
+  "description": "This extension adds a shortcut to duplicate a tab.",
+  "version": "1.0.0",
+  "author": "Bengt Brodersen",
+  
+  "manifest_version": 3,
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "commands": {
+    "duplicate-tab": {
+      "suggested_key": {
+        "default": "Alt+D",
+        "mac": "Alt+D"
+      },
+      "description": "Duplicate Tab"
+    }
+  },
+  
+  "icons": {
+    "16":  "icon-16.png",
+    "48":  "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
