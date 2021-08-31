@@ -1,14 +1,12 @@
 {
   "name": "Tab Duplicate",
   "description": "This extension adds a shortcut to duplicate a tab.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Bengt Brodersen",
   
   "manifest_version": 3,
 
-  "permissions": [
-    "tabs"
-  ],
+  "permissions": [],
 
   "background": {
     "service_worker": "background.js"
