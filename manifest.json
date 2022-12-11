@@ -1,7 +1,7 @@
 {
   "name": "Tab Duplicate",
-  "description": "This extension adds a shortcut to duplicate a tab.",
-  "version": "1.0.1",
+  "description": "This extension adds a shortcut to duplicate or open a new tab to the right.",
+  "version": "1.1.0",
   "author": "Bengt Brodersen",
   
   "manifest_version": 3,
@@ -15,10 +15,17 @@
   "commands": {
     "duplicate-tab": {
       "suggested_key": {
-        "default": "Alt+D",
-        "mac": "Alt+D"
+        "default": "Alt+T",
+        "mac": "Alt+T"
       },
-      "description": "Duplicate Tab"
+      "description": "Duplicate Tab to the Right"
+    },
+    "new-tab": {
+      "suggested_key": {
+        "default": "Ctrl+T",
+        "mac": "Command+T"
+      },
+      "description": "New Tab to the Right"
     }
   },
   
