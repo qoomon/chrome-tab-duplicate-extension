@@ -8,10 +8,6 @@ chrome://extensions/shortcuts
 * Duplicate Tab to the Right
   * **Alt T**
   * `MacOS` **⌥ T**
-* New Tab to the Right
-  * ⚠ This shortcut needs to be set manually, due to the restriction to overwrite default chrome shortcuts
-  * **Ctrl T**
-  * `MacOS` **⌘ T**
 
 #### Build
 `zip -r -j tab-duplicate.zip *`
